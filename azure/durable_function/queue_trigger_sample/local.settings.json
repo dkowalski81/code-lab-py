@@ -3,8 +3,6 @@
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "python",
-    "TRIGGER_QUEUE_NAME": "your-trigger-queue-name",
-    "TASK_HUB_NAME": "TestHubName",
-    "ENDPOINT_AAA_URL": "http://localhost:9000/aaa"
+    "TASK_HUB_NAME": "CodeLabTestHub",
   }
 }

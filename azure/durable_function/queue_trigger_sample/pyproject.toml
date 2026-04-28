@@ -1,0 +1,14 @@
+[project]
+name = "queue-trigger-sample"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "azure-functions~=1.21.3",
+    "azure-functions-durable",
+    "httpx",
+]
+
+[dependency-groups]
+dev = [
+    "azure-storage-queue",
+]

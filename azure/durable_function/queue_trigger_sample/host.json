@@ -1,6 +1,13 @@
 {
   "version": "2.0",
   "logging": {
+	  "logLevel":{
+		  "default":"Warning",
+		  "Function":"Information",
+		  "HostResults":"Information",
+		  "Host.Aggregator":"Warning",
+		  "Worker":"Warning"
+	  },
     "applicationInsights": {
       "samplingSettings": {
         "isEnabled": true,
@@ -10,7 +17,7 @@
   },
   "extensions": {
     "durableTask": {
-      "hubName": "%TASK_HUB_NAME%"
+      "hubName": "CodeLabHub"
     }
   },
   "extensionBundle": {
