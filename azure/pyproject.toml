@@ -5,7 +5,10 @@ requires-python = ">=3.11,<3.12"
 dependencies = [
     "azure-functions~=1.21.3",
     "azure-functions-durable",
+    "azure-monitor-query",
+    "azure-identity",
     "httpx",
+    "pandas"
 ]
 
 [dependency-groups]
